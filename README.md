@@ -2,6 +2,17 @@
 
 Custom skills for managing an Obsidian vault via Claude Code. Maintained by [Fred Oliveira](https://helloform.com)
 
+## Installation
+
+- Ensure [Claude Code](https://github.com/anthropics/claude-code) is installed
+- Clone this repo into your Obsidian vault's `.claude/skills/` directory:
+  ```bash
+  cd /path/to/your/vault/.claude
+  mkdir -p skills
+  git clone https://github.com/fredoliveira/obsidian-skills skills
+  ```
+- Adjust the skill instructions to match your vault's folder structure if needed
+
 ## Available Skills
 
 | Skill                    | Description                                                                             |
