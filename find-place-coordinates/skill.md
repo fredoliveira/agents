@@ -1,5 +1,5 @@
 ---
-note: find-place-coordinates
+name: find-place-coordinates
 description: Find lat/lon coordinates for a place mentioned in a note and add them to the frontmatter for map integration
 ---
 
