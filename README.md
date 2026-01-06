@@ -1,6 +1,8 @@
-# Claude Code Skills
+# Obsidian Claude Code Skills
 
-Custom skills for managing an Obsidian vault via Claude Code. Maintained by [Fred Oliveira](https://helloform.com)
+Maintained by [Fred Oliveira](https://x.com/f).
+
+This is a set of custom Claude Code skills for managing my Obsidian vault via Claude Code. These are relatively specific to the inner workings of my vault, but you may find them useful too. Probably pretty quick to adapt if your vault is relatively close to [@kepano](https://x.com/kepano)'s [vault template](https://github.com/kepano/kepano-obsidian).
 
 ## Installation
 
@@ -13,7 +15,7 @@ Custom skills for managing an Obsidian vault via Claude Code. Maintained by [Fre
   ```
 - Adjust the skill instructions to match your vault's folder structure if needed
 
-## Available Skills
+## Skill descriptions
 
 | Skill                    | Description                                                                             |
 | ------------------------ | --------------------------------------------------------------------------------------- |
