@@ -1,24 +1,22 @@
-# Obsidian Claude Code Skills
+# .agents
 
 Maintained by [Fred Oliveira](https://x.com/f).
 
-This is a set of custom Claude Code skills for managing my Obsidian vault via Claude Code. These are relatively specific to the inner workings of my vault, but you may find them useful too. Probably pretty quick to adapt if your vault is relatively close to [@kepano](https://x.com/kepano)'s [vault template](https://github.com/kepano/kepano-obsidian).
+This is a set of custom skills and agent files for AI agents like Pi, Claude Code, or Codex. Many of them manage my Obsidian vault, because that's fundamental to my workflow.
 
 ## Installation
 
-- Ensure [Claude Code](https://github.com/anthropics/claude-code) is installed
-- Clone this repo into your Obsidian vault's `.claude/skills/` directory:
-  ```bash
-  cd /path/to/your/vault/.claude
-  mkdir -p skills
-  git clone https://github.com/fredoliveira/obsidian-skills skills
-  ```
-- Adjust the skill instructions to match your vault's folder structure if needed
+- Clone this repository somewhere
+- Read (please, *always read install scripts*), customize, and run `./install.sh` to symlink these to your agent folders
+- Share your own skills if you have them!
 
-## Skill descriptions
+## Obsidian skills
+
+These are relatively specific to the inner workings of my [Obsidian](https://obsidian.md) vault, but you may find them useful too. Probably pretty quick to adapt if your vault is relatively close to [@kepano](https://x.com/kepano)'s [vault template](https://github.com/kepano/kepano-obsidian).
 
 | Skill                    | Description                                                                             |
 | ------------------------ | --------------------------------------------------------------------------------------- |
+| `done`                   | Summarize an agentic session and add the summary to Obisidian                           |
 | `organize-inbox`         | Move notes from `Inbox/` to appropriate folders based on their frontmatter category     |
 | `index-atomic-notes`     | File atomic notes under relevant topic MOCs and discover connections to related notes   |
 | `find-place-coordinates` | Add lat/lon coordinates to place notes for map visualization                            |
